@@ -26,8 +26,8 @@ public class ProgressBarTest {
         options.setPageLoadStrategy(PageLoadStrategy.EAGER);
         WebDriverManager.chromedriver().setup();
 
-        //options.addArguments("--headless");
-        //options.addArguments("--window-size=1920,1080");
+        options.addArguments("--headless");
+        options.addArguments("--window-size=1920,1080");
 
         driver = new ChromeDriver(options);
         page = new ProgressBarPage(driver);
