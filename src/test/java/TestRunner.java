@@ -33,5 +33,4 @@ public class TestRunner {
         ReportBuilder reportBuilder = new ReportBuilder(jsonFiles, configuration);
         reportBuilder.generateReports();
     }
-
 }

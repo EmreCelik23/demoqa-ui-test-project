@@ -12,9 +12,9 @@ Feature: Text Box Form Validation
     Then the form should display the entered details below the form
 
   Examples:
-    | fullName   | email                | curAddress      | permAddress         |
-    | Emre Celik | temrecelik@epias.com | Maslak,Sariyer  | Yamanevler,Umraniye |
-    | John Doe   | john.doe@example.com | 123 Main Street | 456 Elm Street      |
+    | fullName     | email                    | curAddress              | permAddress         |
+    | Emre Celik   | temrecelik@epias.com     | Maslak,Sariyer          | Yamanevler,Umraniye |
+    | Lebron James | lebron.james@example.com | Los Angeles, California | Cleveland, Ohio     |
 
   @negative
   Scenario Outline: Form submission with invalid email

@@ -24,8 +24,8 @@ public class LoginTest {
         ChromeOptions options = new ChromeOptions();
         options.setPageLoadStrategy(PageLoadStrategy.EAGER);
 
-        options.addArguments("--headless");
-        options.addArguments("--window-size=1920,1080");
+        //options.addArguments("--headless");
+        //options.addArguments("--window-size=1920,1080");
 
         WebDriverManager.chromedriver().setup();
 

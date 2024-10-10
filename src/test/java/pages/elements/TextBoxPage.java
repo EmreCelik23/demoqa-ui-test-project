@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import java.util.Objects;
 
 public class TextBoxPage {
     WebDriver driver;
@@ -27,7 +26,6 @@ public class TextBoxPage {
     private WebElement submitButton;
 
     public TextBoxPage(WebDriver driver){
-        System.out.println(driver.getCurrentUrl());
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
@@ -50,10 +48,6 @@ public class TextBoxPage {
 
     public void clickSubmitButton(){
         submitButton.click();
-    }
-
-    public WebElement getEmailBox(){
-        return emailBox;
     }
 
     public void scrollUntilButtonVisible(){
